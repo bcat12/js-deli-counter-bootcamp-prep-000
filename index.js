@@ -17,7 +17,7 @@ function nowServing(katzDeliLine) {
 }
 
 function curretnLine(katzDeliLine){
-   var i=0
+   var i=0;
   while( i<katzDeliLine.length){
     i++;
   }
