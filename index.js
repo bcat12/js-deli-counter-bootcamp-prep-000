@@ -5,6 +5,8 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(){
+  return katzDeliLine[0]
+  delete katzDeliLine[0]
   if (katzDeliLine.length===0)
-   return "the line is empty"
+   return "There is nobody waiting to be served!"
 }
