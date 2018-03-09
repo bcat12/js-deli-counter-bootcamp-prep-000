@@ -16,13 +16,13 @@ function nowServing(katzDeliLine) {
   return (`Currently serving ${katzDeliLine.shift()}.`);
 }
 
-function currentLine(katzDeliLineline) {
+function currentLine(katzDeliLine) {
    var newarray = [];
-   if (katzDeliLinelinee.length === 0) {
+   if (katzDeliLineLine.length === 0) {
      return "The line is currently empty.";
    }
-   for (var i = 0; i < katzDeliLinelinee.length; i++) {
-     newarray.push(` ${i+1}. ${katzDeliLinelinee[i]}`);
+   for (var i = 0; i < katzDeliLine.length; i++) {
+     newarray.push(` ${i+1}. ${katzDeliLine[i]}`);
  	}
    return "The line is currently:" + newarray;
 }
