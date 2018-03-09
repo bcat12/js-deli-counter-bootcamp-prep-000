@@ -25,5 +25,5 @@ function curretnLine(katzDeliLine){
   return "The line is currently empty";
   }
   else
-  return katzDeliLine
+  return "The line is currently"+ katzDeliLine
 }
