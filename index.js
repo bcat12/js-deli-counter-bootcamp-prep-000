@@ -5,6 +5,6 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(){
-  if (katzDeliLine===0)
+  if (katzDeliLine.length===0)
    return "the line is empty"
 }
